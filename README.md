@@ -69,6 +69,6 @@ main()
   });
 
   ## Keys and Links To Set:
-  1. (Infura.io) - Api Key Set in NodeOperator file
-  2. (Holesky.dev) - Holesky Faucet, Testnet Info
+  1. [Infura.io](Infura.io) - Api Key Set in NodeOperator file
+  2. [Holesky.dev](Holesky.dev) - Holesky Faucet, Testnet Info
   3. [AltLayer Wizard](https://wizard.altlayer.io/avs) - Easy Way To Deploy Eigenlayer AVS 
