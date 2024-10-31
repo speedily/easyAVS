@@ -6,6 +6,8 @@ Developed By **Abhishek Jha**
 
 Excited To See What You Build With It
 
+Tools Used: Infura.io Api, Web3.js, HoleSky Testnet, Solidity Smart Contract, Hard Hat
+
 # Deployment guide - Deploying Your Smart Contract to the Holesky Testnet
 
 ## Get hard hat and create a new project with dependencies
@@ -65,3 +67,7 @@ main()
     console.error(error);
     process.exit(1);
   });
+
+  ## Keys and Links To Set:
+  1. Infura.io - Api Key Set in NodeOperator file
+  2. Holesky.dev - Holesky Faucet, Testnet Info
