@@ -1,5 +1,6 @@
 const Web3 = require('web3');
 
+//edit the line below with your infura.io api key
 const web3 = new Web3('https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID');
 
 const contractAddress = 'YOUR_CONTRACT_ADDRESS';
