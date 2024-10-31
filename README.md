@@ -2,7 +2,7 @@
 
 Save Time In Building ERC20 TOKEN LAUNCH 
 
-Developed By Abhishek Jha
+Developed By **Abhishek Jha **
 
 Excited To See What You Build With It
 
@@ -15,11 +15,11 @@ npx hardhat create my-project
 cd my-project
 npm install --save-dev @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-etherscan
 
-Create a .env file in your project's root directory and add your Alchemy or Infura project ID and your private key:
+## Create a .env file in your project's root directory and add your Alchemy or Infura project ID and your private key:
 ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY
 PRIVATE_KEY=YOUR_PRIVATE_KEY
 
-Update your hardhat.config.js file:
+## Update your hardhat.config.js file:
 
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan");
@@ -43,7 +43,7 @@ export default config;
 
 npx hardhat run scripts/deploy.js --network holesky
 
-Create a scripts/deploy.js file:
+## Create a scripts/deploy.js file:
 
 const { ethers } = require("hardhat");
 
