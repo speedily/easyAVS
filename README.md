@@ -8,6 +8,7 @@ Excited To See What You Build With It
 
 # Deployment guide - Deploying Your Smart Contract to the Holesky Testnet
 
+## Get hard hat and create a new project with dependencies
 npm install -g hardhat
 
 npx hardhat create my-project
@@ -17,6 +18,7 @@ npm install --save-dev @nomiclabs/hardhat-ethers @nomiclabs/hardhat-waffle ether
 
 ## Create a .env file in your project's root directory and add your Alchemy or Infura project ID and your private key:
 ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY
+
 PRIVATE_KEY=YOUR_PRIVATE_KEY
 
 ## Update your hardhat.config.js file:
@@ -40,6 +42,8 @@ const config = {
 };
 
 export default config;
+
+## Deploy Your Contract:
 
 npx hardhat run scripts/deploy.js --network holesky
 
